@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 50px 0;
+}
+
+header > ul {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+header > ul > li {
+  padding: 20px;
+  list-style: none;
+}
+
+header > ul > li:nth-child(odd) {
+  background-color: #EEEEEE;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main > div {
+ width: 30%;
+ height: 200px;
+ background-color: yellow;
+}
+
+main > div:nth-child(1) {
+  background-color: orange;
+  margin: 0 5% 40px 0;
+}
+
+main > div:nth-child(2) {
+  margin-right: 5%;
+}
+
+main > div:nth-child(4) {
+  margin: 0 5% 40px 0;
+}
+
+main > div:nth-child(5) {
+  background-color: orange;
+  margin-right: 5%;
+}
+
+main > div:nth-child(7) {
+  margin-right: 5%;
+}
+
+main > div:nth-child(8) {
+  margin-right: 5%;
+}
+
+main > div:nth-child(9) {
+  background-color: orange;
+}
